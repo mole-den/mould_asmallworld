@@ -1,0 +1,20 @@
+<Mod
+name="Mould: A Small World"
+description="
+A story and world expansion for Mould.
+
+[h1] What is this?: [/h1]
+
+
+[b] Github: https://github.com/mole-den/mould_n [/b]
+[b] Discord: https://discord.gg/tgdN6kHZhy [/b]
+
+[b] Special Thanks:[/b]
+Master of Copium, Gustavo, Extol, Evaisa, TheOneTheOnlySpoopyBoi
+
+"
+tags="gameplay"
+dont_upload_folders=".assets" 
+dont_upload_files=""
+>
+</Mod>
