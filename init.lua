@@ -1,7 +1,4 @@
-
-
 --ModMagicNumbersFileAdd( "mods/mould_n/files/magic_numbers.xml" ) 
---BiomeMapLoadImage( 0, 0, "mods/mould_n/files/maps/m.png" )
 
 local nxml = dofile_once("mods/mould_n/lib/nxml.lua")
 
