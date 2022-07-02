@@ -1,4 +1,6 @@
 <MagicNumbers 
-
+  BIOME_MAP="mods/mould_theotherside/files/map.png"
+  SNOWFALL_CHANCE="0"
+  RAINFALL_CHANCE="0" 
   >
 </MagicNumbers>

@@ -1,19 +1,22 @@
 <Mod
-name="Mould: A Small World"
+name="Mould: The Other Side"
 description="
-A story and world expansion for Mould.
+A story based gamemode as an expansion for Mould.
+
+[b] ENSURE THE OTHER SIDE LOADS BEFORE MOULD [/b]
+(otherwise it wont work)
 
 [h1] What is this?: [/h1]
-
+why is this
 
 [b] Github: https://github.com/mole-den/mould_n [/b]
 [b] Discord: https://discord.gg/tgdN6kHZhy [/b]
 
 [b] Special Thanks:[/b]
-Master of Copium, Gustavo, Extol, Evaisa, TheOneTheOnlySpoopyBoi
+Master of Copium
 
 "
-tags="gameplay"
+tags="total conversion, gameplay"
 dont_upload_folders=".assets" 
 dont_upload_files=""
 >

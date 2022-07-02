@@ -1,5 +1,11 @@
 <Mod
-	name="Mould: A Small World"
-	description="smol"
+	name="Mould: The Other Side"
+	description="m"
+	ui_newgame_name="The Other Side"
+	ui_newgame_description="1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+	ui_newgame_gfx_banner_bg="mods/mould_theotherside/files/menu_banner_background.png"
+	ui_newgame_gfx_banner_fg="mods/mould_theotherside/files/menu_banner_overlay.png"
+	request_no_api_restrictions="0" 
+	is_game_mode="1"
 >
 </Mod>
