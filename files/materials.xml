@@ -1,0 +1,104 @@
+<Materials>
+
+	<CellDataChild
+  	_parent="sand_static"
+  	_inherit_reactions="0"
+	density="10"
+  	name="soil_theotherside" 
+	ui_name="Dark1"
+	wang_color="ff40323d" 
+	liquid_viscosity="0"
+	liquid_sticks_to_ceiling="100"
+	fire_hp="200"
+	temperature_of_fire="10"
+	autoignition_temperature="60"
+	burnable="0"
+	audio_physics_material_event="gravel"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	show_in_creative_mode="0"
+	hp="10000"
+	>
+  	<Graphics
+	texture_file="data/materials_gfx/sand_static_theotherside.png"
+	color="ff40323d" >
+		<Edge>
+			<EdgeGraphics 
+				overwrite="0" 
+				percent="0.3" 
+				require_same_material="0" 
+				require_same_material_type="1" 
+				type="EVERYWHERE" 
+				z="1" >
+				<Images>
+					<Image 
+						allow_random_rotation="1"
+						filename="data/materials_gfx/edge_files/edge_soil_theotherside_1.png" 
+					/>
+				</Images>
+			 </EdgeGraphics>
+		</Edge>
+    </Graphics>
+  </CellDataChild>
+
+  <CellDataChild
+  	_parent="sand_static"
+  	_inherit_reactions="0"
+  	name="sand_static_theotherside" 
+	ui_name="Dark2"
+	wang_color="ff261f26"
+	hp="700000"
+	audio_physics_material_wall="gravel"
+	audio_physics_material_solid="rock"
+	show_in_creative_mode="0"
+	>
+  	<Graphics
+	texture_file="data/materials_gfx/soil_theotherside.png"
+	color="ff261f26" >
+		<!--<Edge>
+			<EdgeGraphics 
+				color="ff261f26" 
+				overwrite="0" 
+				percent="1" 
+				require_same_material="0" 
+				require_same_material_type="0" 
+				type="NORMAL_BASED" 
+				z="1" >
+				<Images>
+					<Image 
+						do_only_horizontal_stripe="1" 
+						do_only_vertical_stripe="0" 
+						filename="data/materials_gfx/edge_files/edge_sand_static_theotherside_hor.png" 
+						min_angle="45" 
+						max_angle="135" />
+					<Image 
+						do_only_horizontal_stripe="1" 
+						do_only_vertical_stripe="0" 
+						filename="data/materials_gfx/edge_files/edge_sand_static_theotherside_hor.png" 
+						min_angle="235" 
+						max_angle="315" />
+					<Image 
+						do_only_horizontal_stripe="0" 
+						do_only_vertical_stripe="1" 
+						filename="data/materials_gfx/edge_files/edge_sand_static_theotherside_ver.png" 
+						min_angle="135" 
+						max_angle="235" />
+					  <Image 
+						do_only_horizontal_stripe="0" 
+						do_only_vertical_stripe="1" 
+						filename="data/materials_gfx/edge_files/edge_sand_static_theotherside_ver.png" 
+						min_angle="315" 
+						max_angle="360" />
+					  <Image 
+						do_only_horizontal_stripe="0" 
+						do_only_vertical_stripe="1" 
+						filename="data/materials_gfx/edge_files/edge_sand_static_theotherside_ver.png" 
+						min_angle="0" 
+						max_angle="45" />
+				</Images>
+			</EdgeGraphics>
+		</Edge>-->
+    </Graphics>
+  </CellDataChild>
+
+</Materials>
