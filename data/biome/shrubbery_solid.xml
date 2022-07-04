@@ -6,6 +6,7 @@
     limit_background_image="0"
 
     lua_script="data/scripts/biomes/shrubbery_open.lua"
+    
 
      >
 
@@ -14,7 +15,29 @@
   <Materials 
     name="shrubbery" 
      >
-<MaterialComponent 
+
+      <MaterialComponent 
+      _enabled="1" 
+      is_rare="0" 
+      limit_max_y="2048" 
+      limit_min_y="-2048" 
+      limit_y="0" 
+      material_index="10" 
+      material_max="1" 
+      material_min="1" 
+      material_name="soil_theotherside" 
+      rare_polka_is_boxed="1" 
+      rare_polka_probability="1" 
+      rare_polka_radius_high="1" 
+      rare_polka_radius_low="1" 
+      rare_required_max="10" 
+      rare_required_min="0.2" 
+      rare_scale_x="0.05" 
+      rare_scale_y="0.05" 
+      rare_use_perlin="0" 
+      rare_use_polka="1" >
+    </MaterialComponent>
+<!--<MaterialComponent 
       _enabled="1" 
       is_rare="0" 
       limit_max_y="424.229" 
@@ -56,7 +79,7 @@
       rare_scale_y="0.05" 
       rare_use_perlin="0" 
       rare_use_polka="1" >
-    </MaterialComponent>
+    </MaterialComponent>-->
     
   </Materials>
 
